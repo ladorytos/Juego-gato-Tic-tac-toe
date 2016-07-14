@@ -1,8 +1,31 @@
 body {
 	font-family: sans-serif;
+	text-transform: uppercase;
+}
+header{
+	background-color: blue;
+	padding: 20px 0px;
+	margin-bottom: 20px;
+	color: red;
+}
+.esp{
+	margin-right: -20px;
 }
 
+#cubo, .clicked{
+	height: 150px;
+	width: 150px;
+
+}
 #cubo{
- font-size: 50px;
+ font-size: 60px;
  color:white;
+ margin-bottom: 30px;
+}
+
+.clicked{
+ 	background-color: indigo;
+}
+.boton {
+	background-color:green;
 }
